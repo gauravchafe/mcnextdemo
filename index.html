@@ -60,7 +60,7 @@
 <body>
     <h1 style="text-align:center;">Sample form handler</h1>
 	<!-- Copy the form properties into your form Tag where you want to submit the form to Salesforce -->
-	<form id="MCARUROOHSVRFCXGEJIPEIJOS5T4" data-uma-forms="true">
+	<form id="MCYIAANODJSFH5VEQZYQ3H45F37E" data-uma-forms="true"></form>
 		<div>
 		<label for="firstname">First Name</label>
 		<input type="text" id="firstname" name="firstname" required>
@@ -71,12 +71,16 @@
 	  </div>
 	  <div>
 		<label for="email">Email Address</label>
-		<input type="text" id="email" name="email" required>
+		<input type="email" id="email" name="email" required>
+	  </div>
+	  <div>
+		<input type="hidden" id="status" name="status" value="New">
+		<input type="hidden" id="createdDate" name="createdDate" value="2026-03-24T09:04:05.000+0000">
 	  </div>
 	  <button type="submit">Submit</button>
 	</form>
 
 	<!-- Insert these code snippets into your external site page -->
-<script src="https://ep1754662161996.my.site.com/lp/assets/scripts/external-form-handler-host.min.js" onload="SFDCFormHandler.init('https://ep1754662161996.my.site.com/lp')"></script>
+<script async src="https://ep1754662161996.my.site.com/lp/assets/scripts/external-form-handler-host.min.js" onload="SFDCFormHandler.init('https://ep1754662161996.my.site.com/lp')"></script>
 </body>
 </html>
