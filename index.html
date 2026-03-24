@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Title</title>
+	<style>
+		form {
+		  max-width: 400px;
+		  margin: 30px auto;
+		  font-family: system-ui, sans-serif;
+		}
+
+		form > div {
+		  margin-bottom: 16px;
+		  display: flex;
+		  flex-direction: column;
+		}
+
+		label {
+		  font-size: 14px;
+		  font-weight: 600;
+		  margin-bottom: 6px;
+		  color: #333;
+		}
+
+		input[type="text"] {
+		  padding: 10px 12px;
+		  font-size: 15px;
+		  border: 1px solid #ccc;
+		  border-radius: 6px;
+		  background: #fafafa;
+		  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+		}
+
+		input[type="text"]:focus {
+		  outline: none;
+		  border-color: #0176d3;
+		  box-shadow: 0 0 0 3px rgba(1, 118, 211, 0.25);
+		  background: #fff;
+		}
+
+		button[type="submit"] {
+		  padding: 12px 20px;
+		  font-size: 15px;
+		  font-weight: 600;
+		  color: #fff;
+		  background: #0176d3; 
+		  border: none;
+		  border-radius: 6px;
+		  cursor: pointer;
+		  transition: background 0.2s ease;
+		}
+
+		button[type="submit"]:hover {
+		  background: #015cad;
+		}
+	</style>
+</head>
+<body>
+    <h1>Sample form handler</h1>
+	<!-- Copy the form properties into your form Tag where you want to submit the form to Salesforce -->
+	<form id="MCARUROOHSVRFCXGEJIPEIJOS5T4" data-uma-forms="true">
+		<div>
+		<label for="firstname">First Name</label>
+		<input type="text" name="firstname" required>
+	  </div>
+	  <div>
+		<label for="lastname">Last Name</label>
+		<input type="text" name="lastname" required>
+	  </div>
+	  <div>
+		<label for="email">Email Address</label>
+		<input type="text" name="email" required>
+	  </div>
+	  <button type="submit">Submit</button>
+	</form>
+
+	<!-- Insert these code snippets into your external site page -->
+	<script async src="https://ep1754662161996.my.site.com/lp/assets/scripts/external-form-handler-host.min.js" onload="SFDCFormHandler.init('https://ep1754662161996.my.site.com/lp')"></script>
+</body>
+</html>
