@@ -31,7 +31,7 @@
     });
 
     //load Data 360 Web SDK
-    loadScript('https://cdn.c360a.salesforce.com/beacon/c360a/b39ebad2-c996-42c3-b192-b95969d4bdbe/scripts/c360a.min.js?wtcp_id=1NDKa000000CgZTOA0', function() {
+    loadScript('INSERT_BEACON_URL', function() {
         console.log('Data 360 Web SDK has been loaded.'); 
     });
 
